@@ -35,4 +35,8 @@ int main() {
     printf("hari kelima: %.f\n", hari_kelima);
     printf("hari keenam: %.f\n", hari_keenam);
     printf("hari ketujuh: %.f\n", hari_ketujuh);
+
+    // total keseluruhan
+    int jumlah = hari_pertama + hari_kedua + hari_ketiga + hari_keempat + hari_kelima + hari_keenam + hari_ketujuh;
+    printf("hasil: %d", jumlah);
 }
