@@ -18,7 +18,7 @@ int main() {
     float diskon_hkeenam = 0.003125;
     float diskon_hketujuh = 0.0015625;
 
-    // perhitungan pendapatan dipotong pajak
+    // perhitungan pendapatan perhari
     float hari_pertama =  (harga_jual * (1 - diskon_hpertama) * (1 - pajak_ganjil) - hpp);
     float hari_kedua = (harga_jual * (1 - diskon_hkedua) * (1 - pajak_genap) - hpp);
     float hari_ketiga = (harga_jual * (1 - diskon_hketiga) * (1 - pajak_ganjil) - hpp);
