@@ -4,7 +4,8 @@
 int main() {
     float hpp = 27000;
     float harga_jual = 60000;
-    float diskon = 0.1;
+    
+    // pajak hari genap 20% dan hari ganjil 12.5%
     float pajak_genap = 0.2;
     float pajak_ganjil = 0.125;
 
