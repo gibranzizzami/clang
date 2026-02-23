@@ -40,6 +40,4 @@ int main() {
     // total keseluruhan
     int jumlah = hari_pertama + hari_kedua + hari_ketiga + hari_keempat + hari_kelima + hari_keenam + hari_ketujuh;
     printf("total keuntungan yang didapat adalah: %d\n", jumlah);
-
-    return 0;
 }
