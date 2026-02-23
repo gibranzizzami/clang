@@ -9,7 +9,7 @@ int main() {
     float pajak_genap = 0.2;
     float pajak_ganjil = 0.125;
 
-    /* diskon awal 10% dan akan turun setengah tiap diskon sampai diskon 
+    /* diskon awal 10% dan akan turun setengah tiap diskon sampai hari 
     ketujuh*/
     float diskon_hpertama = 0.10;
     float diskon_hkedua = 0.05;
@@ -40,4 +40,6 @@ int main() {
     // total keseluruhan
     int jumlah = hari_pertama + hari_kedua + hari_ketiga + hari_keempat + hari_kelima + hari_keenam + hari_ketujuh;
     printf("hasil: %d", jumlah);
+
+    return 0;
 }
