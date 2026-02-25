@@ -63,5 +63,9 @@ int main() {
     int jumlah_pendapatan = pendapatan_hari_pertama + pendapatan_hari_kedua + pendapatan_hari_ketiga + pendapatan_hari_keempat + pendapatan_hari_kelima + pendapatan_hari_keenam + pendapatan_hari_ketujuh;
     printf("total keuntungan yang didapat adalah: %d\n", jumlah_pendapatan);
 
+    // kesimpulan untung atau rugi
+    int result = (jumlah_pendapatan - (hpp * 7));
+    printf("Keuntungam yang didapat adalah sebesar %d\n", result);
+
     return 0;
 }
